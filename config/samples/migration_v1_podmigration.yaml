@@ -1,0 +1,9 @@
+apiVersion: migration.example.com/v1
+kind: PodMigration
+metadata:
+  labels:
+    app.kubernetes.io/name: my-criu-migration-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: podmigration-sample
+spec:
+  # TODO(user): Add fields here
